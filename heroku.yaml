@@ -1,0 +1,6 @@
+build:
+  docker:
+    web: Dockerfile
+
+run:
+  web: python3 install_qbittorrent_nox.py && qbittorrent-nox
